@@ -35,4 +35,5 @@ public interface ICategoryService {
     Page<Category> findByCategoryNameContaining(String name, Pageable pageable);
 
     List<Category> findByCategoryNameContaining(String name);
+
 }
